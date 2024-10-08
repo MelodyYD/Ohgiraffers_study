@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="MenuMapper">
+
+    <!--
+    필기.
+    우리가 JDBC 를 사용해서 전체를 조회했을 때 수많은 setter 와 getter 를 사용해서 힘들게 객체 값을 집어넣었었다.
+    하지만, MyBatis 는 JDBC 를 더욱 간편하게 사용할 수 있게 해주는 프레임워크이기 때문에
+    이러한 하드코딩 문제를 resultMap 이라는 것으로 해결할 수 있다.
+    -->
+
+    <!-- 결과 매핑 : 데이터베이스에 컬럼에 해당하는 값과 필드값을 매칭시켜준다. -->
+    <resultMap id="menuResultMap" type="com.ohgiraffers.section01.xmlconfig.model.dto.MenuDTO">
+        <id property="menuCode" column="MENU_CODE"/>
+        <result property="menuName" column="MENU_NAME"/>
+        <result property="menuPrice" column="MENU_PRICE"/>
+        <result property="categoryCode" column="CATEGORY_CODE"/>
+        <result property="orderableStatus" column="ORDERABLE_STATUS"/>
+    </resultMap>
+
+    <select id="selectAllMenu" resultMap="menuResultMap">
+          SELECT MENU_CODE
+               , MENU_NAME
+               , MENU_PRICE
+               , CATEGORY_CODE
+               , ORDERABLE_STATUS
+            FROM TBL_MENU
+           WHERE ORDERABLE_STATUS = 'Y'
+        ORDER BY MENU_CODE
+    </select>
+
+    <!-- jdbc 에서 했던 ?(플레이스 홀더) 개념을 #{변수명} 이렇게 나타낼 수 있다. -->
+    <select id="selectMenuByMenuCode" parameterType="_int" resultMap="menuResultMap">
+        SELECT MENU_CODE
+             , MENU_NAME
+             , MENU_PRICE
+             , CATEGORY_CODE
+             , ORDERABLE_STATUS
+          FROM TBL_MENU
+         WHERE ORDERABLE_STATUS = 'Y'
+               AND
+               MENU_CODE = #{code}
+    </select>
+
+    <!--
+        insert, delete, update 의 경우에는 DB 에 영향을 미치게 되면 int 형으로 결과를 반환한다.
+        그리고 파라미터로 전달 된 newMenu 를 DTO 의 필드명으로 값을 바인딩 해주어야 한다.
+     -->
+    <insert id="insertNewMenu" parameterType="com.ohgiraffers.section01.xmlconfig.model.dto.MenuDTO">
+        INSERT INTO TBL_MENU
+               (MENU_NAME, MENU_PRICE, CATEGORY_CODE, ORDERABLE_STATUS)
+        VALUES (#{menuName}, #{menuPrice}, #{categoryCode}, 'Y')
+    </insert>
+
+    <update id="updateMenu" parameterType="com.ohgiraffers.section01.xmlconfig.model.dto.MenuDTO">
+        UPDATE TBL_MENU
+           SET MENU_NAME = #{ menuName },
+               MENU_PRICE = #{ menuPrice },
+               CATEGORY_CODE = #{ categoryCode }
+         WHERE MENU_CODE = #{ menuCode }
+    </update>
+
+    <delete id="deleteMenu" parameterType="com.ohgiraffers.section01.xmlconfig.model.dto.MenuDTO">
+        DELETE
+          FROM TBL_MENU
+         WHERE MENU_CODE = #{ deleteCode }
+    </delete>
+    
+</mapper>

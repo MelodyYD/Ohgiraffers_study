@@ -14,4 +14,7 @@
             </dataSource>
         </environment>
     </environments>
+    <mappers>
+        <mapper resource="com/ohgiraffers/section01/xmlconfig/menu-mapper.xml"/>
+    </mappers>
 </configuration>
