@@ -75,7 +75,7 @@ public class Application {
         System.out.print("변경 할 메뉴 이름을 입력해주세요 : ");
         sc.nextLine();
         String name = sc.nextLine();
-        System.out.println("변경 할 카테고리 코드를 입력해주세요 : ");
+        System.out.print("변경 할 카테고리 코드를 입력해주세요 : ");
         int categoryCode = sc.nextInt();
         System.out.print("판매여부 결정해주세요(Y/N) : ");
         sc.nextLine();
@@ -111,7 +111,9 @@ public class Application {
             System.out.print("검색할 메뉴이름을 입력해주세요 : ");
             String nameValue = sc.nextLine();
             System.out.print("검색할 카테고리 코드를 입력해주세요 : ");
+            sc.nextLine();
             int categoryValue = sc.nextInt();
+            sc.nextLine();
             criteria.put("nameValue",nameValue);
             criteria.put("categoryValue",categoryValue);
         }

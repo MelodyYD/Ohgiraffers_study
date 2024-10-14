@@ -222,11 +222,11 @@
 <!--        WHERE MENU_CODE = #{code}-->
 
         UPDATE TBL_MENU
-        <trim prefix="set" prefixOverrides=",">
+        <trim prefix="SET" prefixOverrides=",">
             <if test="name != null and name != ''">
                 MENU_NAME = #{name}
             </if>
-            <if test="category != null and category gt 0">
+            <if test="categoryCode != null and categoryCode gt 0">
                 , CATEGORY_CODE = #{categoryCode}
             </if>
             <if test="orderableStatus != null and orderableStatus != ''">

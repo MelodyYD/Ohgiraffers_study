@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ccd6746-f497-4334-a775-0060dd5d6f3e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../chap03-crud-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap03-crud-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/ohgiraffers/common/MenuDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/ohgiraffers/common/MenuDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/ohgiraffers/common/Template.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/ohgiraffers/common/Template.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/ohgiraffers/section01/dynamic/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/ohgiraffers/section01/dynamic/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/ohgiraffers/section01/dynamic/DynamicSqlMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/ohgiraffers/section01/dynamic/DynamicSqlMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/ohgiraffers/section01/dynamic/MenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/ohgiraffers/section01/dynamic/MenuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/dynamic/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/dynamic/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/ohgiraffers/section01/dynamic/DynamicSqlMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/ohgiraffers/section01/dynamic/DynamicSqlMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,31 +81,32 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build chap04-dynamic-sql-lecture-source.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.chap04-dynamic-sql-lecture-source [:com.ohgiraffers.section01.dynamic.Application.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.chap04-dynamic-sql-lecture-source [build].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/team/Team_Mission/mybatis-Team-Mission2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "Gradle.Build chap04-dynamic-sql-lecture-source.executor": "Run",
+    "Gradle.chap04-dynamic-sql-lecture-source [:com.ohgiraffers.section01.dynamic.Application.main()].executor": "Run",
+    "Gradle.chap04-dynamic-sql-lecture-source [build].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Lecture/04_mybatis/01_lecture-source/chap04-dynamic-sql-lecture-source",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.ohgiraffers.section01.dynamic" />
@@ -156,6 +164,7 @@
       <workItem from="1728866372033" duration="16555000" />
       <workItem from="1728888807807" duration="13000" />
       <workItem from="1728888831207" duration="9000" />
+      <workItem from="1728889131791" duration="1300000" />
     </task>
     <servers />
   </component>
