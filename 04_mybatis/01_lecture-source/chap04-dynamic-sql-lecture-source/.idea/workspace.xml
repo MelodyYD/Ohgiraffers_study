@@ -71,27 +71,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build chap04-dynamic-sql-lecture-source.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.chap04-dynamic-sql-lecture-source [:com.ohgiraffers.section01.dynamic.Application.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.chap04-dynamic-sql-lecture-source [build].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/chap03&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build chap04-dynamic-sql-lecture-source.executor": "Run",
+    "Gradle.chap04-dynamic-sql-lecture-source [:com.ohgiraffers.section01.dynamic.Application.main()].executor": "Run",
+    "Gradle.chap04-dynamic-sql-lecture-source [build].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/chap03",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/team/Team_Mission/mybatis-Team-Mission2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.ohgiraffers.section01.dynamic" />
@@ -146,7 +147,7 @@
       <workItem from="1728607524163" duration="283000" />
       <workItem from="1728608649424" duration="14777000" />
       <workItem from="1728632149618" duration="443000" />
-      <workItem from="1728866372033" duration="15783000" />
+      <workItem from="1728866372033" duration="16555000" />
     </task>
     <servers />
   </component>
